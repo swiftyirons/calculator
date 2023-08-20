@@ -1,18 +1,7 @@
-function add(x, y) {
- return x + y;
-}
-
-function subtract(x, y) {
- return x - y;
-}
-
-function multiply(x, y) {
-  return x * y;
-}
-
-function divide(x,y) {
-  return x  / y;
-}
+let add = (x, y) => x + y;
+let subtract = (x, y) => x - y;
+let multiply = (x, y) => x * y;
+let divide = (x,y) => x  / y;
 
 function operate(operator, a, b) {
   switch(operator) {
@@ -32,4 +21,4 @@ function operate(operator, a, b) {
   return solution;
 }
 
-// console.log(operate("+", 8, 4));
+// console.log(operate("*", 8, 4));
